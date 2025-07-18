@@ -1,0 +1,4 @@
+# Telegram Session Bot Requirements
+pyrogram>=2.0.0
+TgCrypto>=1.2.5
+colorama>=0.4.6
