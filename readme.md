@@ -166,8 +166,7 @@ async def get_session_info():
 
 ```
 pyrogram-session-generator/
-├── 📄 main.py                 # Ana CLI uygulaması
-├── 🤖 telegram_session_bot.py # Telegram bot arayüzü  
+├── 📄 main.py                 # Ana CLI uygulaması 
 ├── ⚙️ session_manager.py      # Session oluşturma mantığı
 ├── 🔍 session_validator.py    # Session doğrulama
 ├── 🛠️ utils.py               # Yardımcı fonksiyonlar
@@ -176,9 +175,6 @@ pyrogram-session-generator/
 ├── 🎮 demo_usage.py          # Demo script
 ├── 📄 requirements.txt       # Python bağımlılıkları
 ├── 📖 README.md              # Bu dosya
-├── 📁 backups/               # Session yedekleri
-├── 📁 logs/                  # Uygulama logları
-└── 📁 exports/               # Dışa aktarılan dosyalar
 ```
 
 ## 🛡️ Güvenlik Önerileri
