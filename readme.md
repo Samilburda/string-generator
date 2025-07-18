@@ -72,13 +72,6 @@ API_HASH = "abcd1234..."   # 32+ karakter
 python main.py
 ```
 
-### 🤖 **Bot Modunda Çalıştırma**
-
-```bash
-# Bot token'ınızı config.py'ye ekleyin
-python telegram_session_bot.py
-```
-
 ## 📚 Kullanım Kılavuzu
 
 ### 👤 **Kullanıcı Session Oluşturma**
@@ -90,11 +83,6 @@ python telegram_session_bot.py
 5. **2FA varsa** şifrenizi girin
 6. ✅ **Session hazır!**
 
-### 🤖 **Bot Session Oluşturma**
-
-1. **Ana menüden** "Generate Bot Session" seçin
-2. **Bot token'ınızı** girin (@BotFather'dan)
-3. ✅ **Bot session hazır!**
 
 ### 🔍 **Session Doğrulama**
 
@@ -110,40 +98,6 @@ async def validate_session():
     else:
         print(f"❌ Invalid session: {result['error']}")
 ```
-
-## 🔧 Konfigürasyon
-
-### 📁 **Config.py**
-
-```python
-# API Credentials
-PYROGRAM_API_ID = "12345678"
-PYROGRAM_API_HASH = "your_api_hash"
-
-# Bot Configuration
-BOT_TOKEN = "your_bot_token"
-SESSION_LOG_CHAT_ID = "-1001234567890"  # Opsiyonel
-
-# Storage Settings
-SESSION_BACKUP_DIR = "./backups"
-CREATE_BACKUPS = True
-SEND_TO_SAVED_MESSAGES = True
-
-# Security
-ENABLE_2FA_WARNING = True
-AUTO_DELETE_TEMP_FILES = True
-```
-
-### 🌍 **Environment Variables**
-
-```.env
-# .env dosyası oluşturun
-PYROGRAM_API_ID=12345678
-PYROGRAM_API_HASH=your_api_hash
-BOT_TOKEN=your_bot_token
-```
-
-## 💡 Kod Örnekleri
 
 ### 🔐 **Session String Kullanımı**
 
