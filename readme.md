@@ -39,8 +39,8 @@
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/kullanici/pyrogram-session-generator.git
-cd pyrogram-session-generator
+git clone https://github.com/Samilburda/string-generator.git
+cd string-generator
 
 # Gerekli paketleri yükleyin
 pip install -r requirements.txt
