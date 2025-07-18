@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Channel](https://img.shields.io/badge/Telegram-@samilbots-blue.svg)](https://t.me/samilbots)
 
-> 🚀 Telegram hesapları ve botları için güvenli session string oluşturucu! Hem CLI hem de Telegram Bot desteği ile.
+> 🚀 Telegram hesapları ve botları için güvenli session string oluşturucu!
 
 ## ✨ Özellikler
 
